@@ -2,7 +2,8 @@
 
 Returns a 768-dimensional embedding from MolDeBERTa, a DeBERTaV2 encoder pretrained on 123 million PubChem SMILES with byte-level tokenisation that avoids merging chemically unrelated characters. Beyond masked-token prediction, de Oliveira and Saeed added objectives regressing and classifying molecular descriptors and contrasting similar structures, so physicochemical and substructure information is encoded rather than implicit. Fine-tuned versions beat earlier SMILES encoders on seven of nine MoleculeNet benchmarks. Features come from the classification token and are not read one by one.
 
-This model was incorporated on 2026-06-30.Last packaged on 2026-07-01.
+This model was incorporated on 2026-06-30.
+Last packaged on 2026-07-01.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 768 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3wac](https://hub.docker.com/r/ersiliaos/eos3wac)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3wac.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3wac.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3wac_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3wac_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `338`
